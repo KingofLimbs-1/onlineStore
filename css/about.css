@@ -4,14 +4,71 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(121, 221, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 221, 147, 1) 0%,
+    rgba(213, 255, 194, 1) 23%,
+    rgba(213, 255, 194, 1) 70%,
+    rgba(121, 221, 147, 1) 100%
+  );
+}
 /* || GENERAL STYLING END */
 
-/* || TEAM SECTION  */
-/*  */
+/* || HEADING SECTION */
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.bigText {
+  margin-left: 40px;
+  font-family: "Spectral", serif;
+  font-size: 3.5em;
+}
+
+hr {
+  height: 3px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: #000;
+  border-radius: 25px;
+  border-color: #000;
+}
+/* || HEADING SECTION END */
+
+/* || TEXT SECTION  */
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.sectionHeading {
+  font-family: "Noto Serif Hebrew", serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sectionText {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* || TEXT SECTION END */
+
+/* || CARD SECTION */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer .sectionHeading {
+  text-align: center;
 }
 
 .employeeCards {
@@ -41,4 +98,33 @@
   height: 100%;
   border-radius: 5px;
 }
-/* || TEAM SECTION END */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.employeeName {
+  font-family: "Spectral", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.jobTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.jobDescription {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+}
+/* || CARD SECTION END */

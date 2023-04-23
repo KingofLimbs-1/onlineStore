@@ -17,114 +17,339 @@ body {
 }
 /* || GENERAL STYLING END */
 
-/* || HEADING SECTION */
-.headingContainer {
-  display: flex;
-  flex-direction: column;
+/* DESKTOPS: 1025px - 1290px */
+@media (min-width: 1020px) {
+  /* || HEADING SECTION */
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bigText {
+    margin-left: 40px;
+    font-family: "Spectral", serif;
+    font-size: 3.5em;
+  }
+
+  hr {
+    height: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #000;
+    border-radius: 25px;
+    border-color: #000;
+  }
+  /* || HEADING SECTION END */
+
+  /* || TEXT SECTION  */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+
+  .sectionHeading {
+    font-family: "Noto Serif Hebrew", serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sectionText {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  /* || TEXT SECTION END */
+
+  /* || CARD SECTION */
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardContainer .sectionHeading {
+    text-align: center;
+  }
+
+  .employeeCards {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
+
+  .card {
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: max-content 100px 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #employeeImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .employeeName {
+    font-family: "Spectral", serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .jobTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .jobDescription {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+  }
+  /* || CARD SECTION END */
 }
 
-.bigText {
-  margin-left: 40px;
-  font-family: "Spectral", serif;
-  font-size: 3.5em;
+/* TABLETS: 768px - 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* || HEADING SECTION */
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bigText {
+    margin-left: 40px;
+    font-family: "Spectral", serif;
+    font-size: 3.5em;
+  }
+
+  hr {
+    height: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #000;
+    border-radius: 25px;
+    border-color: #000;
+  }
+  /* || HEADING SECTION END */
+
+  /* || TEXT SECTION  */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+
+  .sectionHeading {
+    font-family: "Noto Serif Hebrew", serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sectionText {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  /* || TEXT SECTION END */
+
+  /* || CARD SECTION */
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardContainer .sectionHeading {
+    text-align: center;
+  }
+
+  .employeeCards {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
+
+  .card {
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: max-content 100px 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #employeeImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .employeeName {
+    font-family: "Spectral", serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .jobTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .jobDescription {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+  }
 }
 
-hr {
-  height: 3px;
-  margin-left: 40px;
-  margin-right: 40px;
-  background-color: #000;
-  border-radius: 25px;
-  border-color: #000;
-}
-/* || HEADING SECTION END */
+/* CELLPHONES: 767px */
+@media screen and (max-width: 767px) {
+  /* || HEADING SECTION */
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* || TEXT SECTION  */
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  margin-bottom: 30px;
-}
+  .bigText {
+    margin-left: 40px;
+    font-family: "Spectral", serif;
+    font-size: 3.5em;
+  }
 
-.sectionHeading {
-  font-family: "Noto Serif Hebrew", serif;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
+  hr {
+    height: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #000;
+    border-radius: 25px;
+    border-color: #000;
+  }
+  /* || HEADING SECTION END */
 
-.sectionText {
-  font-family: "Spectral", serif;
-  font-weight: 600;
-  font-size: 20px;
-}
-/* || TEXT SECTION END */
+  /* || TEXT SECTION  */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
 
-/* || CARD SECTION */
-.cardContainer {
-  display: flex;
-  flex-direction: column;
-}
+  .sectionHeading {
+    font-family: "Noto Serif Hebrew", serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
 
-.cardContainer .sectionHeading {
-  text-align: center;
-}
+  .sectionText {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  /* || TEXT SECTION END */
 
-.employeeCards {
-  margin-top: 10px;
-  display: grid;
-  justify-content: center;
-  gap: 50px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-}
+  /* || CARD SECTION */
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
-.card {
-  display: grid;
-  background-color: #fff;
-  grid-template-rows: max-content 100px 1fr;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-}
+  .cardContainer .sectionHeading {
+    text-align: center;
+  }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+  .employeeCards {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
 
-#employeeImg {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
+  .card {
+    display: grid;
+    background-color: #fff;
+    grid-template-rows: max-content 100px 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
 
-.employeeName {
-  font-family: "Spectral", serif;
-  font-size: 20px;
-  font-weight: 700;
-}
+  #employeeImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
 
-.jobTitle {
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-}
+  .employeeName {
+    font-family: "Spectral", serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-.jobDescription {
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 5px;
+  .jobTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .jobDescription {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+  }
 }
-/* || CARD SECTION END */

@@ -1,0 +1,91 @@
+/* || GENERAL STYLING */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* || GENERAL STYLING END */
+
+/* || HEADING */
+.headingContainer {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* || HEADING END */
+
+/* || BASIC INFO */
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h4 {
+  text-align: center;
+}
+
+.container img {
+  height: 25px;
+  width: 25px;
+}
+/* || BASIC INFO END */
+
+/* || FORM */
+
+.wrapper {
+  max-width: 500px;
+  height: 50vh;
+  width: 100%;
+  margin: 20px auto;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.form {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+}
+/* || FORM END */
+
+/* || FOOTER */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+
+.social img {
+  height: 40px;
+  width: 40px;
+}
+/* || FOOTER END */

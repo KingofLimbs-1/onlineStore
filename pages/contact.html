@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
     <!-- Custom Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS Link -->
     <link rel="stylesheet" href="/css/contact.css" />
   </head>
   <body>
     <!-- Heading -->
     <div class="headingContainer">
-      <h1>Contact Us</h1>
+      <h1>Contact Us.</h1>
     </div>
     <!-- Heading end -->
     <hr />
@@ -27,17 +38,6 @@
           </a>
           <div>
             <h4>Call us</h4>
-            <p>Number</p>
-          </div>
-        </div>
-
-        <div class="container">
-          <a href="#">
-            <img src="/images/aboutPage/email.png" alt="email-icon" />
-          </a>
-          <div>
-            <h4>Email us</h4>
-            <p>Email address</p>
           </div>
         </div>
 
@@ -47,7 +47,15 @@
           </a>
           <div>
             <h4>Visit our website</h4>
-            <p>www.fakeaddress.com</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <a href="#">
+            <img src="/images/aboutPage/email.png" alt="email-icon" />
+          </a>
+          <div>
+            <h4>Email us</h4>
           </div>
         </div>
       </div>
@@ -56,53 +64,54 @@
 
     <!-- Form -->
     <section>
-      <div class="wrapper">
-        <div class="form">
+      <div class="formContainer">
+        <form class="form">
           <div class="inputField">
             <p>Name</p>
-            <input type="text" placeholder="Enter your name..."/>
+            <input type="text" />
           </div>
 
           <div class="inputField">
             <p>Email</p>
-            <input type="text" placeholder="Enter your email address..." />
+            <input type="text" />
           </div>
 
           <div class="inputField">
             <p>Number</p>
-            <input type="text" placeholder="Enter your cellphone number..."/>
+            <input type="text" />
           </div>
 
           <div class="inputField">
             <p>Message</p>
-            <input type="text" placeholder="Enter a message..." />
+            <input type="text" />
           </div>
 
           <div class="inputField">
-            <button id="submitBtn">Reach out to us!</button>
+            <button type="submit" id="submitBtn">Reach out to us!</button>
           </div>
-        </div>
+        </form>
       </div>
     </section>
     <!-- Form end -->
 
+    <!-- Footer -->
     <footer>
       <div class="socialContainer">
-        <div class="social">
-          <a
-            href="https://www.instagram.com/simplyhomeofficial_/"
-            target="_blank"
-          >
-            <img src="/images/aboutPage/instagram.png" alt="" />
-          </a>
-        </div>
-
         <div class="social">
           <a
             href="https://www.linkedin.com/in/simply-home-7901a5274/"
             target="_blank"
           >
             <img src="/images/aboutPage/linkedin.png" alt="" />
+          </a>
+        </div>
+
+        <div class="social">
+          <a
+            href="https://www.instagram.com/simplyhomeofficial_/"
+            target="_blank"
+          >
+            <img src="/images/aboutPage/instagram.png" alt="" />
           </a>
         </div>
 
@@ -116,5 +125,6 @@
         </div>
       </div>
     </footer>
+    <!-- Footer end -->
   </body>
 </html>

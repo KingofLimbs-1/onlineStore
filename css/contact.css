@@ -4,6 +4,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(121, 221, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 221, 147, 1) 0%,
+    rgba(176, 255, 140, 1) 48%,
+    rgba(176, 255, 140, 1) 53%,
+    rgba(121, 221, 147, 1) 100%
+  );
+}
 /* || GENERAL STYLING END */
 
 /* || HEADING */
@@ -12,7 +23,16 @@
   justify-content: center;
 }
 
+.headingContainer h1 {
+  font-family: "Spectral", serif;
+  font-size: 3.5em;
+}
+
 hr {
+  height: 3px;
+  background-color: #000;
+  border-radius: 25px;
+  border-color: #000;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -22,10 +42,10 @@ hr {
 .infoContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  gap: 50px;
 }
 
 .container {
@@ -36,35 +56,79 @@ hr {
 
 .container h4 {
   text-align: center;
+  font-family: "Spectral", serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.container p {
+  /* text-align: center; */
+  font-family: "Inter", sans-serif;
 }
 
 .container img {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
 }
 /* || BASIC INFO END */
 
 /* || FORM */
-
-.wrapper {
+.formContainer {
+  transition: box-shadow 0.4s;
   max-width: 500px;
-  height: 50vh;
+  height: 100%;
   width: 100%;
   margin: 20px auto;
+  margin-top: 60px;
   padding: 30px;
-  margin-top: 100px;
+  background-color: #000;
+  border-radius: 35px;
+}
+
+.formContainer:hover {
+  box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
 }
 
 .form {
   width: 100%;
-  margin-top: 50px;
+}
+
+.form input {
+  height: 30px;
+  border-radius: 25px;
+  border-style: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .inputField {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 15px;
+  margin: 20px;
+}
+
+.inputField p {
+  color: #fff;
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+#submitBtn {
+  margin-top: 20px;
+  font-size: 28px;
+  font-family: "Spectral", serif;
+  cursor: pointer;
+  font-weight: 800;
+  background-color: #fff;
+  height: 50px;
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* || FORM END */
 

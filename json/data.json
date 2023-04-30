@@ -11,64 +11,161 @@
       "image": "/images/shopPage/glassCoffeeTable.jpg"
     },
     {
-      "name": "Comfortable Microfiber Sofa",
+      "name": "Comfortable Leather Sofa",
       "price": "R10,999.00",
       "image": "/images/shopPage/sofaNew.jpg"
     },
     {
-      "name": "Leather Reclining Sectional Sofa",
+      "name": "Fabric Sectional Sofa",
       "price": "R21,999.00",
       "image": "/images/shopPage/sectionalSofa.jpg"
     },
     {
-      "name": "Mid-Century Accent Chair",
+      "name": "Accent Chair",
       "price": "R4,499.00",
       "image": "/images/shopPage/accentChair.jpg"
     },
     {
-      "name": "Cozy Armchair with Ottoman",
+      "name": "Cozy Armchair",
       "price": "R5,999.00",
       "image": "/images/shopPage/armChair.jpg"
     },
     {
-      "name": "Soft Velvet Ottoman",
+      "name": "Soft Fabric Ottoman",
       "price": "R2,299.00",
       "image": "/images/shopPage/softOttoman.jpg"
     },
     {
-      "name": "Stylish Leather Ottoman",
+      "name": "Stylish Ottoman",
       "price": "R3,799.00",
       "image": "/images/shopPage/fancyOttoman.jpg"
     }
   ],
   "diningRoom": [
-    { "name": "Traditional Wood Dining Set", "price": "R 12,999.00" },
-    { "name": "Modern Glass Dining Set", "price": "R 19,999.00" },
-    { "name": "Rustic Farmhouse Dining Set", "price": "R 14,999.00" },
-    { "name": "Contemporary Marble Dining Set", "price": "R 24,999.00" },
-    { "name": "Vintage Industrial Dining Set", "price": "R 16,999.00" },
-    { "name": "Mid-Century Modern Dining Set", "price": "R 22,999.00" },
-    { "name": "Minimalist Scandinavian Dining Set", "price": "R 17,999.00" },
-    { "name": "Luxurious Gold Dining Set", "price": "R 29,999.00" }
+    {
+      "name": "Traditional Wood Dining Set",
+      "price": "R 12,999.00",
+      "image": "/images/shopPage/traditionalDining.jpg"
+    },
+    {
+      "name": "Modern Glass Dining Set",
+      "price": "R 19,999.00",
+      "image": "/images/shopPage/glassDining.jpg"
+    },
+    {
+      "name": "Rustic Farmhouse Dining Set",
+      "price": "R 14,999.00",
+      "image": "/images/shopPage/farmDining.jpg"
+    },
+    {
+      "name": "Contemporary Dining Set",
+      "price": "R 24,999.00",
+      "image": "/images/shopPage/contempDining.jpg"
+    },
+    {
+      "name": "Vintage Industrial Dining Set",
+      "price": "R 16,999.00",
+      "image": "/images/shopPage/vintageDining.jpg"
+    },
+    {
+      "name": "Mid-Century Modern Dining Set",
+      "price": "R 22,999.00",
+      "image": "/images/shopPage/midCenDining.jpg"
+    },
+
+    {
+      "name": "Minimalist Scandinavian Dining Set",
+      "price": "R 17,999.00",
+      "image": "/images/shopPage/scandinavDining.jpg"
+    },
+    {
+      "name": "Luxurious Dining Set",
+      "price": "R 29,999.00",
+      "image": "/images/shopPage/luxDining.jpg"
+    }
   ],
   "office": [
-    { "name": "Ergonomic Mesh Office Chair", "price": "R4,999.00" },
-    { "name": "Executive Leather Office Chair", "price": "R6,999.00" },
-    { "name": "Modern Glass-Top Desk", "price": "R9,499.00" },
-    { "name": "Wooden L-Shaped Desk", "price": "R12,999.00" },
-    { "name": "Steel 4-Drawer Filing Cabinet", "price": "R5,999.00" },
-    { "name": "Adjustable Standing Desk", "price": "R14,999.00" },
-    { "name": "Bookcase with Shelves", "price": "18,999.00" },
-    { "name": "Bookcase with Doors", "price": "R7,499.00" }
+    {
+      "name": "Ergonomic Mesh Office Chair",
+      "price": "R4,999.00",
+      "image": "/images/shopPage/meshChair.jpg"
+    },
+    {
+      "name": "Executive Leather Office Chair",
+      "price": "R6,999.00",
+      "image": "/images/shopPage/executiveChair.jpg"
+    },
+    {
+      "name": "Modern Glass-Top Desk",
+      "price": "R5,499.00",
+      "image": "/images/shopPage/glassDesk.jpg"
+    },
+    {
+      "name": "Wooden Desk",
+      "price": "R6,999.00",
+      "image": "/images/shopPage/woodDesk.jpg"
+    },
+    {
+      "name": "Adjustable Standing Desk",
+      "price": "R10,999.00",
+      "image": "/images/shopPage/standingDesk.jpg"
+    },
+    {
+      "name": "Steel 2-Drawer Filing Cabinet",
+      "price": "R2,999.00",
+      "image": "/images/shopPage/filingCabinet.jpg"
+    },
+    {
+      "name": "Iron Bookshelf with Shelves",
+      "price": "11,999.00",
+      "image": "/images/shopPage/bookcase.jpg"
+    },
+    {
+      "name": "Multi-Shelved Bookshelf",
+      "price": "R9,499.00",
+      "image": "/images/shopPage/bookshelf.jpg"
+    }
   ],
   "decor": [
-    { "name": "Handwoven Cotton Rug", "price": "R2,499.00" },
-    { "name": "Decorative Throw Pillow Set", "price": "R899.00" },
-    { "name": "Artificial Potted Plant", "price": "R1,299.00" },
-    { "name": "Tabletop Ceramic Vase", "price": "R699.00" },
-    { "name": "Framed Wall Art Print", "price": "R1,799.00" },
-    { "name": "Cotton Blend Window Curtains", "price": "R1,999.00" },
-    { "name": "Decorative Table Lamp", "price": "R1,499.00" },
-    { "name": "Wall Mirror with Frame", "price": "R3,499.00" }
+    {
+      "name": "Handwoven Cotton Rug",
+      "price": "R2,499.00",
+      "image": "/images/shopPage/cottonRug.jpg"
+    },
+    {
+      "name": "Handwoven Egyptian Rug",
+      "price": "R899.00",
+      "image": "/images/shopPage/egyptianRug.jpg"
+    },
+    {
+      "name": "Artificial Potted Plant",
+      "price": "R1,299.00",
+      "image": "/images/shopPage/pottedPlant.jpg"
+    },
+    {
+      "name": "Hanging Bean Plant",
+      "price": "R1,999.00",
+      "image": "/images/shopPage/hangingPlant.jpg"
+    },
+    {
+      "name": "Tabletop Ceramic Vase",
+      "price": "R699.00",
+      "image": "/images/shopPage/ceramicVase.jpg"
+    },
+    {
+      "name": "Bubble Vase",
+      "price": "R1,799.00",
+      "image": "/images/shopPage/bubbleVase.jpg"
+    },
+    {
+      "name": "Decorative Table Lamp",
+      "price": "R1,499.00",
+      "image": "/images/shopPage/tableLamp.jpg"
+    },
+    {
+      "name": "Standing Floor Lamp",
+      "price": "R3,499.00",
+      "image": "/images/shopPage/floorLamp.jpg"
+    }
   ]
 }

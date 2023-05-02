@@ -3,169 +3,326 @@
     {
       "name": "Rustic Oak Coffee Table",
       "price": "R2,999.00",
-      "image": "/images/shopPage/coffeeTableNew.jpg"
+      "image": "/images/shopPage/coffeeTable.jpg",
+      "images": [
+        "/images/shopPage/coffeeTable.jpg",
+        "/images/shopPage/images/coffeeTable2.jpg",
+        "/images/shopPage/images/coffeeTable3.jpg"
+      ]
     },
     {
       "name": "Modern Glass Coffee Table",
       "price": "R3,499.00",
-      "image": "/images/shopPage/glassCoffeeTable.jpg"
+      "image": "/images/shopPage/glassCoffeeTable.jpg",
+      "images": [
+        "/images/shopPage/images/glassCoffeeTable2.jpg",
+        "/images/shopPage/images/glassCoffeeTable3.jpg",
+        "/images/shopPage/images/glassCoffeeTable4.jpg"
+      ]
     },
     {
       "name": "Comfortable Leather Sofa",
       "price": "R10,999.00",
-      "image": "/images/shopPage/sofaNew.jpg"
+      "image": "/images/shopPage/leatherSofa.jpg",
+      "images": [
+        "/images/shopPage/leatherSofa.jpg",
+        "/images/shopPage/images/leatherSofa2.jpg",
+        "/images/shopPage/images/leatherSofa3.jpg"
+      ]
     },
     {
       "name": "Fabric Sectional Sofa",
       "price": "R21,999.00",
-      "image": "/images/shopPage/sectionalSofa.jpg"
+      "image": "/images/shopPage/sectionalSofa.jpg",
+      "images": [
+        "/images/shopPage/sectionalSofa.jpg",
+        "/images/shopPage/images/sectionalSofa2.jpg",
+        "/images/shopPage/images/sectionalSofa3.jpg"
+      ]
     },
     {
       "name": "Accent Chair",
       "price": "R4,499.00",
-      "image": "/images/shopPage/accentChair.jpg"
+      "image": "/images/shopPage/accentChair.jpg",
+      "images": [
+        "/images/shopPage/accentChair.jpg",
+        "/images/shopPage/images/accentChair2.jpg",
+        "/images/shopPage/images/accentChair3.jpg"
+      ]
     },
     {
       "name": "Cozy Armchair",
       "price": "R5,999.00",
-      "image": "/images/shopPage/armChair.jpg"
+      "image": "/images/shopPage/armChair.jpg",
+      "images": [
+        "/images/shopPage/armChair.jpg",
+        "/images/shopPage/images/armChair2.jpg",
+        "/images/shopPage/images/armChair3.jpg"
+      ]
     },
     {
       "name": "Soft Fabric Ottoman",
       "price": "R2,299.00",
-      "image": "/images/shopPage/softOttoman.jpg"
+      "image": "/images/shopPage/softOttoman.jpg",
+      "images": [
+        "/images/shopPage/softOttoman.jpg",
+        "/images/shopPage/images/softOttoman2.jpg",
+        "/images/shopPage/images/softOttoman3.jpg"
+      ]
     },
     {
       "name": "Stylish Ottoman",
       "price": "R3,799.00",
-      "image": "/images/shopPage/fancyOttoman.jpg"
+      "image": "/images/shopPage/fancyOttoman.jpg",
+      "images": [
+        "/images/shopPage/fancyOttoman.jpg",
+        "/images/shopPage/images/fancyOttoman2.jpg",
+        "/images/shopPage/images/fancyOttoman3.jpg"
+      ]
     }
   ],
   "diningRoom": [
     {
       "name": "Traditional Wood Dining Set",
       "price": "R 12,999.00",
-      "image": "/images/shopPage/traditionalDining.jpg"
+      "image": "/images/shopPage/traditionalDining.jpg",
+      "images": [
+        "/images/shopPage/traditionalDining.jpg",
+        "/images/shopPage/images/traditionalDining2.jpg",
+        "/images/shopPage/images/traditionalDining3.jpg"
+      ]
     },
     {
       "name": "Modern Glass Dining Set",
       "price": "R 19,999.00",
-      "image": "/images/shopPage/glassDining.jpg"
+      "image": "/images/shopPage/glassDining.jpg",
+      "images": [
+        "/images/shopPage/glassDining.jpg",
+        "/images/shopPage/images/glassDining2.jpg",
+        "/images/shopPage/images/glassDining3.jpg"
+      ]
     },
     {
       "name": "Rustic Farmhouse Dining Set",
       "price": "R 14,999.00",
-      "image": "/images/shopPage/farmDining.jpg"
+      "image": "/images/shopPage/farmDining.jpg",
+      "images": [
+        "/images/shopPage/farmDining.jpg",
+        "/images/shopPage/images/farmDining2.jpg",
+        "/images/shopPage/images/farmDining3.jpg"
+      ]
     },
     {
       "name": "Contemporary Dining Set",
       "price": "R 24,999.00",
-      "image": "/images/shopPage/contempDining.jpg"
+      "image": "/images/shopPage/contempDining.jpg",
+      "images": [
+        "/images/shopPage/contempDining.jpg",
+        "/images/shopPage/images/contempDining2.jpg",
+        "/images/shopPage/images/contempDining3.jpg"
+      ]
     },
     {
       "name": "Vintage Industrial Dining Set",
       "price": "R 16,999.00",
-      "image": "/images/shopPage/vintageDining.jpg"
+      "image": "/images/shopPage/vintageDining.jpg",
+      "images": [
+        "/images/shopPage/vintageDining.jpg",
+        "/images/shopPage/images/vintageDining2.jpg",
+        "/images/shopPage/images/vintageDining3.jpg"
+      ]
     },
     {
       "name": "Mid-Century Modern Dining Set",
       "price": "R 22,999.00",
-      "image": "/images/shopPage/midCenDining.jpg"
+      "image": "/images/shopPage/midCenDining.jpg",
+      "images": [
+        "/images/shopPage/midCenDining.jpg",
+        "/images/shopPage/images/midCenDining2.jpg",
+        "/images/shopPage/images/midCenDining3.jpg"
+      ]
     },
 
     {
       "name": "Minimalist Scandinavian Dining Set",
       "price": "R 17,999.00",
-      "image": "/images/shopPage/scandinavDining.jpg"
+      "image": "/images/shopPage/scandinavDining.jpg",
+      "images": [
+        "/images/shopPage/scandinavDining.jpg",
+        "/images/shopPage/images/scandinavDining2.jpg",
+        "/images/shopPage/images/scandinavDining3.jpg"
+      ]
     },
     {
       "name": "Luxurious Dining Set",
       "price": "R 29,999.00",
-      "image": "/images/shopPage/luxDining.jpg"
+      "image": "/images/shopPage/luxDining.jpg",
+      "images": [
+        "/images/shopPage/luxDining.jpg",
+        "/images/shopPage/images/luxDining2.jpg",
+        "/images/shopPage/images/luxDining3.jpg"
+      ]
     }
   ],
   "office": [
     {
       "name": "Ergonomic Mesh Office Chair",
       "price": "R4,999.00",
-      "image": "/images/shopPage/meshChair.jpg"
+      "image": "/images/shopPage/meshChair.jpg",
+      "images": [
+        "/images/shopPage/meshChair.jpg",
+        "/images/shopPage/images/meshChair2.jpg",
+        "/images/shopPage/images/meshChair3.jpg"
+      ]
     },
     {
       "name": "Executive Leather Office Chair",
       "price": "R6,999.00",
-      "image": "/images/shopPage/executiveChair.jpg"
+      "image": "/images/shopPage/executiveChair.jpg",
+      "images": [
+        "/images/shopPage/executiveChair.jpg",
+        "/images/shopPage/images/executiveChair2.jpg",
+        "/images/shopPage/images/executiveChair3.jpg"
+      ]
     },
     {
       "name": "Modern Glass-Top Desk",
       "price": "R5,499.00",
-      "image": "/images/shopPage/glassDesk.jpg"
+      "image": "/images/shopPage/glassDesk.jpg",
+      "images": [
+        "/images/shopPage/glassDesk.jpg",
+        "/images/shopPage/images/glassDesk2.jpg",
+        "/images/shopPage/images/glassDesk3.jpg"
+      ]
     },
     {
       "name": "Wooden Desk",
       "price": "R6,999.00",
-      "image": "/images/shopPage/woodDesk.jpg"
+      "image": "/images/shopPage/woodDesk.jpg",
+      "images": [
+        "/images/shopPage/woodDesk.jpg",
+        "/images/shopPage/images/woodenDesk2.jpg",
+        "/images/shopPage/images/woodenDesk3.jpg"
+      ]
     },
     {
       "name": "Adjustable Standing Desk",
       "price": "R10,999.00",
-      "image": "/images/shopPage/standingDesk.jpg"
+      "image": "/images/shopPage/standingDesk.jpg",
+      "images": [
+        "/images/shopPage/standingDesk.jpg",
+        "/images/shopPage/images/standingDesk2.jpg",
+        "/images/shopPage/images/standingDesk3.jpg"
+      ]
     },
     {
       "name": "Steel 2-Drawer Filing Cabinet",
       "price": "R2,999.00",
-      "image": "/images/shopPage/filingCabinet.jpg"
+      "image": "/images/shopPage/filingCabinet.jpg",
+      "images": [
+        "/images/shopPage/filingCabinet.jpg",
+        "/images/shopPage/images/filingCabinet2.jpg",
+        "/images/shopPage/images/filingCabinet3.jpg"
+      ]
     },
     {
       "name": "Iron Bookshelf with Shelves",
       "price": "11,999.00",
-      "image": "/images/shopPage/bookcase.jpg"
+      "image": "/images/shopPage/bookcase.jpg",
+      "images": [
+        "/images/shopPage/bookcase.jpg",
+        "/images/shopPage/images/bookcase2.jpg",
+        "/images/shopPage/images/bookcase3.jpg"
+      ]
     },
     {
       "name": "Multi-Shelved Bookshelf",
       "price": "R9,499.00",
-      "image": "/images/shopPage/bookshelf.jpg"
+      "image": "/images/shopPage/bookshelf.jpg",
+      "images": [
+        "/images/shopPage/bookshelf.jpg",
+        "/images/shopPage/images/bookshelf2.jpg",
+        "/images/shopPage/images/bookshelf3.jpg"
+      ]
     }
   ],
   "decor": [
     {
       "name": "Handwoven Cotton Rug",
       "price": "R2,499.00",
-      "image": "/images/shopPage/cottonRug.jpg"
+      "image": "/images/shopPage/cottonRug.jpg",
+      "images": [
+        "/images/shopPage/cottonRug.jpg",
+        "/images/shopPage/images/cottonRug2.jpg",
+        "/images/shopPage/images/cottonRug3.jpg"
+      ]
     },
     {
       "name": "Handwoven Egyptian Rug",
       "price": "R899.00",
-      "image": "/images/shopPage/egyptianRug.jpg"
+      "image": "/images/shopPage/egyptianRug.jpg",
+      "images": [
+        "/images/shopPage/egyptianRug.jpg",
+        "/images/shopPage/images/egyptianRug2.jpg",
+        "/images/shopPage/images/egyptianRug3.jpg"
+      ]
     },
     {
       "name": "Artificial Potted Plant",
       "price": "R1,299.00",
-      "image": "/images/shopPage/pottedPlant.jpg"
+      "image": "/images/shopPage/pottedPlant.jpg",
+      "images": [
+        "/images/shopPage/pottedPlant.jpg",
+        "/images/shopPage/images/pottedPlant2.jpg"
+      ]
     },
     {
       "name": "Hanging Bean Plant",
       "price": "R1,999.00",
-      "image": "/images/shopPage/hangingPlant.jpg"
+      "image": "/images/shopPage/hangingPlant.jpg",
+      "images": [
+        "/images/shopPage/hangingPlant.jpg",
+        "/images/shopPage/images/hangingPlant2.jpg"
+      ]
     },
     {
       "name": "Tabletop Ceramic Vase",
       "price": "R699.00",
-      "image": "/images/shopPage/ceramicVase.jpg"
+      "image": "/images/shopPage/ceramicVase.jpg",
+      "images": [
+        "/images/shopPage/ceramicVase.jpg",
+        "/images/shopPage/images/ceramicVase2.jpg",
+        "/images/shopPage/images/ceramicVase3.jpg"
+      ]
     },
     {
       "name": "Bubble Vase",
       "price": "R1,799.00",
-      "image": "/images/shopPage/bubbleVase.jpg"
+      "image": "/images/shopPage/bubbleVase.jpg",
+      "images": [
+        "/images/shopPage/bubbleVase.jpg",
+        "/images/shopPage/images/bubblevase2.jpg",
+        "/images/shopPage/images/bubbleVase3.jpg"
+      ]
     },
     {
       "name": "Decorative Table Lamp",
       "price": "R1,499.00",
-      "image": "/images/shopPage/tableLamp.jpg"
+      "image": "/images/shopPage/tableLamp.jpg",
+      "images": [
+        "/images/shopPage/tableLamp.jpg",
+        "/images/shopPage/images/tableLamp2.jpg"
+      ]
     },
     {
       "name": "Standing Floor Lamp",
       "price": "R3,499.00",
-      "image": "/images/shopPage/floorLamp.jpg"
+      "image": "/images/shopPage/floorLamp.jpg",
+      "images": [
+        "/images/shopPage/floorLamp.jpg",
+        "/images/shopPage/images/floorLamp2.jpg",
+        "/images/shopPage/images/floorLamp3.jpg"
+      ]
     }
   ]
 }

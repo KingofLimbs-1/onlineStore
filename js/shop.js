@@ -109,11 +109,13 @@ function createProductCards(selector, data) {
       //   Modal section reset
       modalBody.innerHTML = "";
       // Image creation
-      const productImg = document.createElement("img");
-      productImg.setAttribute("src", product.image);
-      productImg.setAttribute("alt", product.image);
-      productImg.className = "modalImage";
-      modalBody.appendChild(productImg);
+      product.images.forEach((image) => {
+        const productImg = document.createElement("img");
+        productImg.setAttribute("src", image);
+        productImg.setAttribute("alt", image);
+        productImg.className = "modalImage";
+        modalBody.appendChild(productImg);
+      });
 
       //   Modal footer reference
       const modalFooter = document.querySelector(".modalFooter");
@@ -125,7 +127,7 @@ function createProductCards(selector, data) {
     });
     // ...
 
-    // Close modal function 
+    // Close modal function
     function closeModal() {
       const modalContainer = document.querySelector(".modalContainer");
       if (modalContainer.style.display === "block") {

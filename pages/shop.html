@@ -21,12 +21,51 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS Link -->
     <link rel="stylesheet" href="/css/shop.css" />
     <!-- JS Link -->
     <script type="module" src="/js/shop.js" defer></script>
   </head>
   <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="rowContainer">
+        <div class="logoContainer">
+          <a href="/index.html" class="logoItems">
+            <h1>Simply Home</h1>
+          </a>
+        </div>
+
+        <div class="navItemContainer">
+          <ul class="navBarItems">
+            <li class="navItem">
+              <a href="/pages/lookBook.html">Lookbook</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/about.html">About</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cart">
+          <img src="/images/homePage/shoppingCart1.png" alt="" />
+          <span class="quantity">0</span>
+          <div class="cartItemContainer"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
     <!-- Product sections -->
     <main>
       <!-- Living room -->
@@ -72,18 +111,27 @@
         </div>
       </section>
       <!-- Decorations end -->
-      <!-- Modal -->
+
+      <!-- Product modal -->
       <section>
         <div class="modalContainer">
           <div class="modalContent">
             <div class="modalHeader"></div>
             <div class="modalBody"></div>
-            <div class="modalFooter">
-            </div>
+            <div class="modalFooter"></div>
           </div>
         </div>
       </section>
-      <!-- Modal end -->
+      <!-- Product modal end -->
+
+      <!-- Cart modal -->
+      <section>
+        <div class="cartModalContainer">
+          <div class="cartModalContent">
+          </div>
+        </div>
+      </section>
+      <!-- Cart modal end -->
     </main>
     <!-- Product sections end -->
   </body>

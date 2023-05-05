@@ -4,6 +4,8 @@
       "name": "Rustic Oak Coffee Table",
       "price": "R2,999.00",
       "image": "/images/shopPage/coffeeTable.jpg",
+      "description": "A beautiful coffee table made from rustic oak wood.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/coffeeTable.jpg",
         "/images/shopPage/images/coffeeTable2.jpg",
@@ -14,6 +16,8 @@
       "name": "Modern Glass Coffee Table",
       "price": "R3,499.00",
       "image": "/images/shopPage/glassCoffeeTable.jpg",
+      "description": "A sleek and modern coffee table with a glass top.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/images/glassCoffeeTable2.jpg",
         "/images/shopPage/images/glassCoffeeTable3.jpg",
@@ -24,6 +28,8 @@
       "name": "Comfortable Leather Sofa",
       "price": "R10,999.00",
       "image": "/images/shopPage/leatherSofa.jpg",
+      "description": "A luxurious leather sofa designed for comfort.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/leatherSofa.jpg",
         "/images/shopPage/images/leatherSofa2.jpg",
@@ -34,6 +40,8 @@
       "name": "Fabric Sectional Sofa",
       "price": "R21,999.00",
       "image": "/images/shopPage/sectionalSofa.jpg",
+      "description": " A large and comfortable sectional sofa made from soft fabric.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/sectionalSofa.jpg",
         "/images/shopPage/images/sectionalSofa2.jpg",
@@ -44,6 +52,8 @@
       "name": "Accent Chair",
       "price": "R4,499.00",
       "image": "/images/shopPage/accentChair.jpg",
+      "description": "A stylish accent chair with a unique design.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/accentChair.jpg",
         "/images/shopPage/images/accentChair2.jpg",
@@ -54,6 +64,8 @@
       "name": "Cozy Armchair",
       "price": "R5,999.00",
       "image": "/images/shopPage/armChair.jpg",
+      "description": " A comfortable armchair made for snuggling up with a good book.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/armChair.jpg",
         "/images/shopPage/images/armChair2.jpg",
@@ -64,6 +76,8 @@
       "name": "Soft Fabric Ottoman",
       "price": "R2,299.00",
       "image": "/images/shopPage/softOttoman.jpg",
+      "description": "A soft and comfortable ottoman that's perfect for putting your feet up.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/softOttoman.jpg",
         "/images/shopPage/images/softOttoman2.jpg",
@@ -74,6 +88,8 @@
       "name": "Stylish Ottoman",
       "price": "R3,799.00",
       "image": "/images/shopPage/fancyOttoman.jpg",
+      "description": "A fancy ottoman with a stylish design.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/fancyOttoman.jpg",
         "/images/shopPage/images/fancyOttoman2.jpg",
@@ -86,6 +102,8 @@
       "name": "Traditional Wood Dining Set",
       "price": "R 12,999.00",
       "image": "/images/shopPage/traditionalDining.jpg",
+      "description": "A classic wooden dining set perfect for traditional homes.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/traditionalDining.jpg",
         "/images/shopPage/images/traditionalDining2.jpg",
@@ -96,6 +114,8 @@
       "name": "Modern Glass Dining Set",
       "price": "R 19,999.00",
       "image": "/images/shopPage/glassDining.jpg",
+      "description": "A modern and sleek dining set with a glass table top.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/glassDining.jpg",
         "/images/shopPage/images/glassDining2.jpg",
@@ -106,6 +126,8 @@
       "name": "Rustic Farmhouse Dining Set",
       "price": "R 14,999.00",
       "image": "/images/shopPage/farmDining.jpg",
+      "description": "A farmhouse-style dining set made from rustic materials.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/farmDining.jpg",
         "/images/shopPage/images/farmDining2.jpg",
@@ -116,6 +138,8 @@
       "name": "Contemporary Dining Set",
       "price": "R 24,999.00",
       "image": "/images/shopPage/contempDining.jpg",
+      "description": "A stylish and modern dining set perfect for contemporary homes.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/contempDining.jpg",
         "/images/shopPage/images/contempDining2.jpg",
@@ -126,6 +150,8 @@
       "name": "Vintage Industrial Dining Set",
       "price": "R 16,999.00",
       "image": "/images/shopPage/vintageDining.jpg",
+      "rating": "/images/shopPage/fiveStar.png",
+      "description": "A unique dining set with an industrial vintage design.",
       "images": [
         "/images/shopPage/vintageDining.jpg",
         "/images/shopPage/images/vintageDining2.jpg",
@@ -136,6 +162,8 @@
       "name": "Mid-Century Modern Dining Set",
       "price": "R 22,999.00",
       "image": "/images/shopPage/midCenDining.jpg",
+      "description": "A retro-style dining set perfect for mid-century modern homes.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/midCenDining.jpg",
         "/images/shopPage/images/midCenDining2.jpg",
@@ -147,6 +175,8 @@
       "name": "Minimalist Scandinavian Dining Set",
       "price": "R 17,999.00",
       "image": "/images/shopPage/scandinavDining.jpg",
+      "description": "A sleek and stylish dining set that features a minimalist design with a Scandinavian touch.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/scandinavDining.jpg",
         "/images/shopPage/images/scandinavDining2.jpg",
@@ -157,6 +187,8 @@
       "name": "Luxurious Dining Set",
       "price": "R 29,999.00",
       "image": "/images/shopPage/luxDining.jpg",
+      "description": "A stunning and sophisticated dining set that adds a touch of luxury to any dining space.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/luxDining.jpg",
         "/images/shopPage/images/luxDining2.jpg",
@@ -169,6 +201,8 @@
       "name": "Ergonomic Mesh Office Chair",
       "price": "R4,999.00",
       "image": "/images/shopPage/meshChair.jpg",
+      "description": "A high-quality office chair that is designed to provide maximum comfort and support.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/meshChair.jpg",
         "/images/shopPage/images/meshChair2.jpg",
@@ -179,6 +213,8 @@
       "name": "Executive Leather Office Chair",
       "price": "R6,999.00",
       "image": "/images/shopPage/executiveChair.jpg",
+      "description": " An elegant and comfortable office chair that features a luxurious leather upholstery and a sturdy base.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/executiveChair.jpg",
         "/images/shopPage/images/executiveChair2.jpg",
@@ -189,6 +225,8 @@
       "name": "Modern Glass-Top Desk",
       "price": "R5,499.00",
       "image": "/images/shopPage/glassDesk.jpg",
+      "description": "A sleek and contemporary desk that adds a touch of sophistication to any workspace.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/glassDesk.jpg",
         "/images/shopPage/images/glassDesk2.jpg",
@@ -199,6 +237,8 @@
       "name": "Wooden Desk",
       "price": "R6,999.00",
       "image": "/images/shopPage/woodDesk.jpg",
+      "description": "A classic and timeless desk that is perfect for any home office or workspace.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/woodDesk.jpg",
         "/images/shopPage/images/woodenDesk2.jpg",
@@ -209,6 +249,8 @@
       "name": "Adjustable Standing Desk",
       "price": "R10,999.00",
       "image": "/images/shopPage/standingDesk.jpg",
+      "description": "A versatile and ergonomic desk that allows you to work while standing or sitting.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/standingDesk.jpg",
         "/images/shopPage/images/standingDesk2.jpg",
@@ -219,6 +261,8 @@
       "name": "Steel 2-Drawer Filing Cabinet",
       "price": "R2,999.00",
       "image": "/images/shopPage/filingCabinet.jpg",
+      "description": "A durable and secure filing cabinet that is perfect for storing and organizing your important documents.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/filingCabinet.jpg",
         "/images/shopPage/images/filingCabinet2.jpg",
@@ -229,6 +273,8 @@
       "name": "Iron Bookshelf with Shelves",
       "price": "11,999.00",
       "image": "/images/shopPage/bookcase.jpg",
+      "description": "A versatile and functional bookshelf that is perfect for any room in your home.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/bookcase.jpg",
         "/images/shopPage/images/bookcase2.jpg",
@@ -239,6 +285,8 @@
       "name": "Multi-Shelved Bookshelf",
       "price": "R9,499.00",
       "image": "/images/shopPage/bookshelf.jpg",
+      "description": "A stylish and practical bookshelf that adds a touch of industrial charm to your living space.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/bookshelf.jpg",
         "/images/shopPage/images/bookshelf2.jpg",
@@ -251,6 +299,8 @@
       "name": "Handwoven Cotton Rug",
       "price": "R2,499.00",
       "image": "/images/shopPage/cottonRug.jpg",
+      "description": "A beautiful and soft cotton rug that adds warmth and texture to your living space.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/cottonRug.jpg",
         "/images/shopPage/images/cottonRug2.jpg",
@@ -259,8 +309,10 @@
     },
     {
       "name": "Handwoven Egyptian Rug",
-      "price": "R899.00",
+      "price": "R2,899.00",
       "image": "/images/shopPage/egyptianRug.jpg",
+      "description": "A luxurious and elegant rug that is handwoven in Egypt using high-quality materials.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/egyptianRug.jpg",
         "/images/shopPage/images/egyptianRug2.jpg",
@@ -269,8 +321,10 @@
     },
     {
       "name": "Artificial Potted Plant",
-      "price": "R1,299.00",
+      "price": "R799.00",
       "image": "/images/shopPage/pottedPlant.jpg",
+      "description": "A lifelike and low-maintenance potted plant that adds a touch of greenery to your home. ",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/pottedPlant.jpg",
         "/images/shopPage/images/pottedPlant2.jpg"
@@ -278,8 +332,10 @@
     },
     {
       "name": "Hanging Bean Plant",
-      "price": "R1,999.00",
+      "price": "R999.00",
       "image": "/images/shopPage/hangingPlant.jpg",
+      "description": "A stylish and unique hanging plant that adds a touch of charm to any living space.",
+      "rating": "/images/shopPage/fourStar.png",
       "images": [
         "/images/shopPage/hangingPlant.jpg",
         "/images/shopPage/images/hangingPlant2.jpg"
@@ -287,8 +343,10 @@
     },
     {
       "name": "Tabletop Ceramic Vase",
-      "price": "R699.00",
+      "price": "R899.00",
       "image": "/images/shopPage/ceramicVase.jpg",
+      "description": "A simple and elegant ceramic vase that is perfect for displaying fresh flowers or greenery.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/ceramicVase.jpg",
         "/images/shopPage/images/ceramicVase2.jpg",
@@ -299,6 +357,8 @@
       "name": "Bubble Vase",
       "price": "R1,799.00",
       "image": "/images/shopPage/bubbleVase.jpg",
+      "description": " A sleek and modern vase with a unique bubble design, perfect for displaying your favorite flowers.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/bubbleVase.jpg",
         "/images/shopPage/images/bubblevase2.jpg",
@@ -309,6 +369,8 @@
       "name": "Decorative Table Lamp",
       "price": "R1,499.00",
       "image": "/images/shopPage/tableLamp.jpg",
+      "description": "Add a touch of elegance to your space with this beautiful table lamp featuring a stylish design and warm lighting.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/tableLamp.jpg",
         "/images/shopPage/images/tableLamp2.jpg"
@@ -318,6 +380,8 @@
       "name": "Standing Floor Lamp",
       "price": "R3,499.00",
       "image": "/images/shopPage/floorLamp.jpg",
+      "description": "This floor lamp is a statement piece that will enhance any room with its modern and sophisticated design.",
+      "rating": "/images/shopPage/fiveStar.png",
       "images": [
         "/images/shopPage/floorLamp.jpg",
         "/images/shopPage/images/floorLamp2.jpg",

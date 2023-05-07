@@ -59,7 +59,7 @@
         </div>
         <div class="cart">
           <img src="/images/homePage/shoppingCart1.png" alt="" />
-          <span class="quantity">0</span>
+          <span class="quantity"></span>
           <div class="cartItemContainer"></div>
         </div>
       </nav>
@@ -70,7 +70,7 @@
     <main>
       <!-- Living room -->
       <section>
-        <div class="livingRoom">
+        <div class="livingRoom" id="livingSection">
           <div class="sectionHeading">
             <h1>Living Room</h1>
           </div>
@@ -81,7 +81,7 @@
 
       <!-- Dining room -->
       <section>
-        <div class="diningRoom">
+        <div class="diningRoom" id="diningSection">
           <div class="sectionHeading">
             <h1>Dining Room</h1>
           </div>
@@ -92,7 +92,7 @@
 
       <!-- Office -->
       <section>
-        <div class="office">
+        <div class="office" id="officeSection">
           <div class="sectionHeading">
             <h1>Office</h1>
           </div>
@@ -103,7 +103,7 @@
 
       <!-- Decorations -->
       <section>
-        <div class="decor">
+        <div class="decor" id="decorSection">
           <div class="sectionHeading">
             <h1>Decorations</h1>
           </div>
@@ -125,9 +125,29 @@
       <!-- Product modal end -->
 
       <!-- Cart modal -->
-      <section>
+      <section class="cartSection">
         <div class="cartModalContainer">
-          <div class="cartModalContent">
+          <div class="cartModalBody">
+            <div class="cartModalHeader">
+              <div class="head">
+                <h1>Cart</h1>
+              </div>
+              <div class="modalClose">
+                <button class="cartModalClose">
+                  <img src="/images/shopPage/closeBtn.png" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="cartModalContent"></div>
+            <div class="cartModalFooter">
+              <div class="subTotal">
+                <h2>Subtotal: </h2>
+                <span></span>
+              </div>
+              <div class="checkoutBtn">
+                <button>Checkout</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

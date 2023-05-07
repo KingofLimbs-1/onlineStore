@@ -1,5 +1,8 @@
 /* --- REFERENCES --- */
 
+// Navbar
+const navBar = document.querySelector(".rowContainer");
+
 // Product modal container
 const modalContainer = document.querySelector(".modalContainer");
 
@@ -18,11 +21,20 @@ const cartArray = [];
 // Cart button
 const cartBtn = document.querySelector(".cart");
 
+// Cart item count
+const cartQuantity = document.querySelector(".quantity");
+
 // Cart modal container
 const cartModalContainer = document.querySelector(".cartModalContainer");
 
 // Cart modal content
 const cartModalContent = document.querySelector(".cartModalContent");
+
+// Cart subtotal
+const cartSubTotal = document.querySelector(".subTotal span");
+
+// Cart modal close button
+const cartModalClose = document.querySelector(".cartModalClose");
 
 /* ---/ REFERENCES /--- */
 
@@ -166,7 +178,7 @@ function createProductCards(selector, data) {
 }
 // ...
 
-// Close modal function
+// Close product modal function
 function closeModal() {
   if (modalContainer.style.display === "block") {
     modalContainer.style.display = "none";
@@ -182,11 +194,7 @@ function addToCart(product) {
     // If the product is already in the cart, increase its number of units
     alert("That product is already in your cart!");
   } else {
-    cartArray.push({
-      // New object attribute creation for quantity incrementation
-      ...product,
-      numberOfUnits: 1,
-    });
+    cartArray.push(product);
   }
   updateCart();
 }
@@ -196,6 +204,10 @@ function addToCart(product) {
 function updateCart() {
   // Create cart items function call
   createCartItems();
+  // Subtotal function call
+  createSubTotal();
+  // Update quantity function call
+  updateCartQuantity();
 }
 // ...
 
@@ -203,41 +215,89 @@ function updateCart() {
 function createCartItems() {
   cartModalContent.innerHTML = "";
   cartArray.forEach((product) => {
-    cartModalContent.innerHTML += `
-    <div class="cartModalBody">
-      <div class="imageContainer">
-        <img src="${product.image}" alt="${product.name}">
-      </div>
-      <div class="nameContainer">
-        <h1>${product.name}</h1>
-      </div>
-      <div class="priceContainer">
-        <span>${product.price}</span>
-      </div>
-    </div>
-    <div class="cartModalFooter">
-      <div class="minusBtn">
-      <img src="/images/shopPage/minusBtn.png" alt="">
-      </div>
-      <div class="units">${product.numberOfUnits}</div>
-      <div class="plusBtn">
-      <img src="/images/shopPage/plusBtn.png" alt="">
-      </div>
-    </div>
+    const cartItem = document.createElement("div");
+    cartItem.classList.add("cartModalItem");
+    cartItem.innerHTML += `
+            <img src="${product.image}" alt="${product.name}" />
+            <div class="infoContainer">
+              <h1>${product.name}</h1>
+              <span>${product.price}</span>
+            </div>
+            <div class="removeItemBtn">
+              <button data-product-id="${product.id}">
+                <img src="/images/shopPage/removeItemBtn.png" alt="">
+              </button>
+            </div>
     `;
+    cartModalContent.appendChild(cartItem);
+    // Remove item from cart button event listener
+    const removeItemBtn = cartItem.querySelector(".removeItemBtn button");
+    removeItemBtn.addEventListener("click", function () {
+      removeFromCart(product.id);
+    });
   });
 }
 // ...
 
-// Show cart
-function showCart() {
-  if (
-    cartModalContainer.style.display === "none" ||
-    cartModalContainer.style.display === ""
-  ) {
-    cartModalContainer.style.display = "block";
+// Remove item from cart function
+function removeFromCart(productId) {
+  const index = cartArray.findIndex((product) => product.id === productId);
+  if (index !== -1) {
+    cartArray.splice(index, 1);
+    updateCart();
   }
 }
+
+// Create cart sub total function
+function createSubTotal() {
+  let subtotal = 0;
+  cartArray.forEach((product) => {
+    // replace() method that removes non-numbers "R" from product prices for the sake of subtotal display
+    const priceWithoutRand = product.price.replace(/[^\d.]/g, "");
+    const price = Number(priceWithoutRand);
+    subtotal += price;
+  });
+  cartSubTotal.innerText = `R${subtotal.toFixed(2)}`;
+}
+// ...
+
+// Cart item count function
+function updateCartQuantity(){
+  cartQuantity.innerText = cartArray.length;
+}
+
+// Show cart modal function
+function showCart() {
+  if (cartModalContainer.style.display === "none") {
+    cartModalContainer.style.display = "block";
+  } else {
+    cartModalContainer.style.display = "none";
+  }
+}
+
+// Close cart modal function
+function closeCart() {
+  if (cartModalContainer.style.display === "block") {
+    cartModalContainer.style.display = "none";
+  }
+}
+// ...
+
+// Sticky navbar
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navBar.classList.add("sticky");
+  } else {
+    navBar.classList.remove("sticky");
+  }
+}
+
+const sticky = navBar.offsetTop;
+
+// When the user scrolls on the page, stickyNav will be executed
+window.onscroll = function () {
+  stickyNav();
+};
 // ...
 
 /* ---/ FUNCTIONS /--- */
@@ -247,6 +307,11 @@ function showCart() {
 // Cart button event
 cartBtn.addEventListener("click", function () {
   showCart();
+});
+
+// Modal close button event
+cartModalClose.addEventListener("click", function () {
+  closeCart();
 });
 // ...
 /* ---/ EVENT LISTENERS /--- */

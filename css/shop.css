@@ -25,10 +25,24 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* ... */
 /* || GENERAL STYLING END */
 
 /* || NAVBAR */
 .rowContainer {
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,7 +114,6 @@ a {
   left: 80%;
   padding: 3px 10px;
 }
-/* ... */
 /* || NAVBAR END */
 
 /* || PRODUCT SECTIONS */
@@ -109,6 +122,11 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 50px;
+  margin: 50px;
+}
+
+#livingSection {
+  margin-top: 60px;
 }
 
 .productCard {
@@ -247,13 +265,142 @@ a {
 /* || PRODUCT MODAL END */
 
 /* || CART MODAL */
+
+/* Cart container */
 .cartModalContainer {
   display: none;
-  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* ... */
+
+/* Cart body */
+.cartModalBody {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 24px;
+  z-index: 4;
+}
+/* ... */
+
+/* Cart header */
+.cartModalHeader{
+  align-items: center;
 }
 
-.imageContainer img {
+.head{
+  display: flex;
+  justify-content: center;
+}
+
+.modalClose{
+  display: flex;
+  float: right;
+}
+
+/* Cart modal close button */
+.cartModalClose {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.cartModalClose img {
+  height: 25px;
+  width: 25px;
+}
+/* ... */
+
+/* Cart content */
+.cartModalContent {
+  margin: 10px;
+  padding: 10px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoContainer h1 {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+}
+
+.infoContainer span {
+  font-family: "Inter", sans-serif;
+}
+
+/* Cart items */
+.cartModalItem {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.cartModalItem img {
   height: 100px;
   width: 100px;
 }
+/* ... */
+
+/* Remove item button */
+.removeItemBtn button {
+  margin-bottom: 12px;
+  background: none;
+  border: none;
+}
+
+.removeItemBtn img {
+  height: 20px;
+  width: 20px;
+}
+/* ... */
+
+/* Sub total + checkout button */
+.cartModalFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subTotal {
+  font-family: "Noto Serif Hebrew", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkoutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkoutBtn button {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 5px;
+  border: 2px solid black;
+}
+/* ... */
 /* || CART MODAL END*/

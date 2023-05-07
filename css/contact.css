@@ -5,29 +5,90 @@
   box-sizing: border-box;
 }
 
-body {
-  background: rgb(121, 221, 147);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 221, 147, 1) 0%,
-    rgba(176, 255, 140, 1) 48%,
-    rgba(176, 255, 140, 1) 53%,
-    rgba(121, 221, 147, 1) 100%
-  );
+a {
+  text-decoration: none;
+  color: #000;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* ... */
 /* || GENERAL STYLING END */
 
 /* DESKTOPS: 1025px - 1290px */
 @media (min-width: 1020px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+  .navItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 130px;
+  }
+
+  .navBarItems {
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .navItem {
+    padding: 15px;
+  }
+
+  .navItem a {
+    font-weight: 400;
+  }
+  /* ... */
+
   /* || HEADING */
   .headingContainer {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .headingContainer h1 {
     font-family: "Spectral", serif;
     font-size: 3.5em;
+    margin-top: 30px;
   }
 
   hr {
@@ -129,15 +190,7 @@ body {
   }
   /* || FORM END */
 
-  /* || FOOTER */
-  footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    margin-top: 70px;
-    width: 100%;
-  }
-
+  /* || SOCIALS */
   .socialContainer {
     display: flex;
     flex-direction: row;
@@ -150,21 +203,90 @@ body {
   .social img {
     height: 40px;
     width: 40px;
+  }
+  /* || SOCIALS END */
+
+  /* || FOOTER */
+  .footerHeading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Spectral", serif;
+  }
+
+  footer {
+    bottom: 0;
+    margin-top: 70px;
   }
   /* || FOOTER END */
 }
 
 /* TABLETS: 768px - 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+  .navItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 130px;
+  }
+
+  .navBarItems {
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .navItem {
+    padding: 15px;
+  }
+
+  .navItem a {
+    font-weight: 400;
+  }
+  /* ... */
+  /* || NAVBAR END */
+
   /* || HEADING */
   .headingContainer {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .headingContainer h1 {
     font-family: "Spectral", serif;
     font-size: 3.5em;
+    margin-top: 30px;
   }
 
   hr {
@@ -266,15 +388,7 @@ body {
   }
   /* || FORM END */
 
-  /* || FOOTER */
-  footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    margin-top: 70px;
-    width: 100%;
-  }
-
+  /* || SOCIALS */
   .socialContainer {
     display: flex;
     flex-direction: row;
@@ -288,157 +402,89 @@ body {
     height: 40px;
     width: 40px;
   }
-  /* || FOOTER END */
-}
-
-/* TABLETS: 768px - 1023px */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* || HEADING */
-  .headingContainer {
-    display: flex;
-    justify-content: center;
-  }
-
-  .headingContainer h1 {
-    font-family: "Spectral", serif;
-    font-size: 3.5em;
-  }
-
-  hr {
-    height: 3px;
-    background-color: #000;
-    border-radius: 25px;
-    border-color: #000;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  /* || HEADING END */
-
-  /* || BASIC INFO */
-  .infoContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    gap: 50px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container h4 {
-    text-align: center;
-    font-family: "Spectral", serif;
-    font-size: 20px;
-    font-weight: 800;
-  }
-
-  .container img {
-    height: 30px;
-    width: 30px;
-  }
-  /* || BASIC INFO END */
-
-  /* || FORM */
-  .formContainer {
-    transition: box-shadow 0.4s;
-    max-width: 500px;
-    height: 100%;
-    width: 100%;
-    margin: 20px auto;
-    margin-top: 60px;
-    padding: 30px;
-    background-color: #000;
-    border-radius: 35px;
-  }
-
-  .formContainer:hover {
-    box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: -1px 7px 20px 13px rgba(0, 0, 0, 0.4);
-  }
-
-  .form {
-    width: 100%;
-  }
-
-  .form input {
-    height: 30px;
-    border-radius: 25px;
-    border-style: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .inputField {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-  }
-
-  .inputField p {
-    color: #fff;
-    font-family: "Spectral", serif;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  #submitBtn {
-    margin-top: 20px;
-    font-size: 28px;
-    font-family: "Spectral", serif;
-    cursor: pointer;
-    font-weight: 800;
-    background-color: #fff;
-    height: 50px;
-    border-style: none;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  /* || FORM END */
+  /* || SOCIALS END */
 
   /* || FOOTER */
   footer {
-    display: flex;
-    justify-content: center;
     bottom: 0;
-    margin-top: 70px;
-    width: 100%;
+    margin-top: 50px;
   }
 
-  .socialContainer {
+  .footerHeading {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    gap: 30px;
-  }
-
-  .social img {
-    height: 40px;
-    width: 40px;
+    font-family: "Spectral", serif;
   }
   /* || FOOTER END */
 }
 
 /* CELLPHONES: 767px */
 @media screen and (max-width: 767px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+  .navItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 130px;
+  }
+
+  .navBarItems {
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .navItem {
+    padding: 15px;
+  }
+
+  .navItem a {
+    font-weight: 400;
+  }
+  /* ... */
+  /* || NAVBAR END */
+
   /* || HEADING */
   .headingContainer {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .headingContainer h1 {
     font-family: "Spectral", serif;
     font-size: 3.5em;
+    margin-top: 30px;
   }
 
   hr {
@@ -540,15 +586,7 @@ body {
   }
   /* || FORM END */
 
-  /* || FOOTER */
-  footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    margin-top: 70px;
-    width: 100%;
-  }
-
+  /* || SOCIALS */
   .socialContainer {
     display: flex;
     flex-direction: row;
@@ -561,6 +599,19 @@ body {
   .social img {
     height: 40px;
     width: 40px;
+  }
+  /* || SOCIALS END */
+
+  /* || FOOTER */
+  footer {
+    bottom: 0;
+    margin-top: 70px;
+  }
+
+  .footerHeading {
+    display: flex;
+    justify-content: center;
+    font-family: "Spectral", serif;
   }
   /* || FOOTER END */
 }

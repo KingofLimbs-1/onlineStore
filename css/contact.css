@@ -76,6 +76,30 @@ a {
   .navItem a {
     font-weight: 400;
   }
+
+  /* Cart */
+  .cart {
+    position: relative;
+    text-align: right;
+    margin-right: 25px;
+  }
+
+  .cart span {
+    font-family: "Barlow", sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+  }
   /* ... */
 
   /* || HEADING */
@@ -263,6 +287,7 @@ a {
   .navBarItems {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     font-family: "Barlow", sans-serif;
   }
 
@@ -272,6 +297,30 @@ a {
 
   .navItem a {
     font-weight: 400;
+  }
+
+  /* Cart */
+  .cart {
+    position: relative;
+    text-align: right;
+    margin-right: 25px;
+  }
+
+  .cart span {
+    font-family: "Barlow", sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
   }
   /* ... */
   /* || NAVBAR END */
@@ -424,7 +473,7 @@ a {
   /* || NAVBAR */
   .rowContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
@@ -451,25 +500,60 @@ a {
   /* ... */
 
   /* Navbar */
-  .navItemContainer {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    margin-right: 130px;
-  }
-
   .navBarItems {
     list-style-type: none;
-    display: flex;
+    display: none;
     font-family: "Barlow", sans-serif;
+    margin: 0;
+    padding: 0;
   }
 
-  .navItem {
-    padding: 15px;
+  .cart {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .mobileMenu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+  }
+  .navBarItems.active {
+    display: block;
+  }
+  .navBarItems.active li {
+    display: block;
+    text-align: center;
+  }
+  /* ... */
+
+  /* Cart */
+  .cart {
+    position: relative;
+    text-align: right;
+    margin-right: 25px;
   }
 
-  .navItem a {
-    font-weight: 400;
+  .cart span {
+    font-family: "Barlow", sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
   }
   /* ... */
   /* || NAVBAR END */
@@ -484,7 +568,7 @@ a {
   .headingContainer h1 {
     font-family: "Spectral", serif;
     font-size: 3.5em;
-    margin-top: 30px;
+    margin-top: 100px;
   }
 
   hr {
@@ -605,7 +689,7 @@ a {
   /* || FOOTER */
   footer {
     bottom: 0;
-    margin-top: 70px;
+    margin-top: 10px;
   }
 
   .footerHeading {

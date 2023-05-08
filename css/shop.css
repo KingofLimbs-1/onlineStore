@@ -1081,7 +1081,7 @@ a {
   .cartModalItem {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 10px;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1089,8 +1089,8 @@ a {
   }
 
   .cartModalItem img {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
   }
   /* ... */
 

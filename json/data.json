@@ -1,6 +1,7 @@
 {
   "livingRoom": [
     {
+      "id": 1,
       "name": "Rustic Oak Coffee Table",
       "price": "R2,999.00",
       "image": "/images/shopPage/coffeeTable.jpg",
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Modern Glass Coffee Table",
       "price": "R3,499.00",
       "image": "/images/shopPage/glassCoffeeTable.jpg",
@@ -25,6 +27,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Comfortable Leather Sofa",
       "price": "R10,999.00",
       "image": "/images/shopPage/leatherSofa.jpg",
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Fabric Sectional Sofa",
       "price": "R21,999.00",
       "image": "/images/shopPage/sectionalSofa.jpg",
@@ -49,6 +53,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Accent Chair",
       "price": "R4,499.00",
       "image": "/images/shopPage/accentChair.jpg",
@@ -61,6 +66,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Cozy Armchair",
       "price": "R5,999.00",
       "image": "/images/shopPage/armChair.jpg",
@@ -73,6 +79,7 @@
       ]
     },
     {
+      "id": 7,
       "name": "Soft Fabric Ottoman",
       "price": "R2,299.00",
       "image": "/images/shopPage/softOttoman.jpg",
@@ -85,6 +92,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Stylish Ottoman",
       "price": "R3,799.00",
       "image": "/images/shopPage/fancyOttoman.jpg",
@@ -99,6 +107,7 @@
   ],
   "diningRoom": [
     {
+      "id": 1,
       "name": "Traditional Wood Dining Set",
       "price": "R 12,999.00",
       "image": "/images/shopPage/traditionalDining.jpg",
@@ -111,6 +120,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Modern Glass Dining Set",
       "price": "R 19,999.00",
       "image": "/images/shopPage/glassDining.jpg",
@@ -123,6 +133,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Rustic Farmhouse Dining Set",
       "price": "R 14,999.00",
       "image": "/images/shopPage/farmDining.jpg",
@@ -135,6 +146,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Contemporary Dining Set",
       "price": "R 24,999.00",
       "image": "/images/shopPage/contempDining.jpg",
@@ -147,6 +159,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Vintage Industrial Dining Set",
       "price": "R 16,999.00",
       "image": "/images/shopPage/vintageDining.jpg",
@@ -159,6 +172,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Mid-Century Modern Dining Set",
       "price": "R 22,999.00",
       "image": "/images/shopPage/midCenDining.jpg",
@@ -172,6 +186,7 @@
     },
 
     {
+      "id": 7,
       "name": "Minimalist Scandinavian Dining Set",
       "price": "R 17,999.00",
       "image": "/images/shopPage/scandinavDining.jpg",
@@ -184,6 +199,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Luxurious Dining Set",
       "price": "R 29,999.00",
       "image": "/images/shopPage/luxDining.jpg",
@@ -198,6 +214,7 @@
   ],
   "office": [
     {
+      "id": 1,
       "name": "Ergonomic Mesh Office Chair",
       "price": "R4,999.00",
       "image": "/images/shopPage/meshChair.jpg",
@@ -210,6 +227,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Executive Leather Office Chair",
       "price": "R6,999.00",
       "image": "/images/shopPage/executiveChair.jpg",
@@ -222,6 +240,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Modern Glass-Top Desk",
       "price": "R5,499.00",
       "image": "/images/shopPage/glassDesk.jpg",
@@ -234,6 +253,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Wooden Desk",
       "price": "R6,999.00",
       "image": "/images/shopPage/woodDesk.jpg",
@@ -246,6 +266,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Adjustable Standing Desk",
       "price": "R10,999.00",
       "image": "/images/shopPage/standingDesk.jpg",
@@ -258,6 +279,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Steel 2-Drawer Filing Cabinet",
       "price": "R2,999.00",
       "image": "/images/shopPage/filingCabinet.jpg",
@@ -270,6 +292,7 @@
       ]
     },
     {
+      "id": 7,
       "name": "Iron Bookshelf with Shelves",
       "price": "11,999.00",
       "image": "/images/shopPage/bookcase.jpg",
@@ -282,6 +305,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Multi-Shelved Bookshelf",
       "price": "R9,499.00",
       "image": "/images/shopPage/bookshelf.jpg",
@@ -296,6 +320,7 @@
   ],
   "decor": [
     {
+      "id": 1,
       "name": "Handwoven Cotton Rug",
       "price": "R2,499.00",
       "image": "/images/shopPage/cottonRug.jpg",
@@ -308,6 +333,7 @@
       ]
     },
     {
+      "id": 2,
       "name": "Handwoven Egyptian Rug",
       "price": "R2,899.00",
       "image": "/images/shopPage/egyptianRug.jpg",
@@ -320,6 +346,7 @@
       ]
     },
     {
+      "id": 3,
       "name": "Artificial Potted Plant",
       "price": "R799.00",
       "image": "/images/shopPage/pottedPlant.jpg",
@@ -331,6 +358,7 @@
       ]
     },
     {
+      "id": 4,
       "name": "Hanging Bean Plant",
       "price": "R999.00",
       "image": "/images/shopPage/hangingPlant.jpg",
@@ -342,6 +370,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Tabletop Ceramic Vase",
       "price": "R899.00",
       "image": "/images/shopPage/ceramicVase.jpg",
@@ -354,6 +383,7 @@
       ]
     },
     {
+      "id": 6,
       "name": "Bubble Vase",
       "price": "R1,799.00",
       "image": "/images/shopPage/bubbleVase.jpg",
@@ -366,6 +396,7 @@
       ]
     },
     {
+      "id": 7,
       "name": "Decorative Table Lamp",
       "price": "R1,499.00",
       "image": "/images/shopPage/tableLamp.jpg",
@@ -377,6 +408,7 @@
       ]
     },
     {
+      "id": 8,
       "name": "Standing Floor Lamp",
       "price": "R3,499.00",
       "image": "/images/shopPage/floorLamp.jpg",

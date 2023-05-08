@@ -16,7 +16,7 @@ const modalBody = document.querySelector(".modalBody");
 const modalFooter = document.querySelector(".modalFooter");
 
 // Cart array
-const cartArray = [];
+let cartArray = [];
 
 // Cart button
 const cartBtn = document.querySelector(".cart");
@@ -197,6 +197,7 @@ function addToCart(product) {
     cartArray.push(product);
   }
   updateCart();
+  saveCartToLocalStorage();
 }
 // ...
 
@@ -245,6 +246,7 @@ function removeFromCart(productId) {
   if (index !== -1) {
     cartArray.splice(index, 1);
     updateCart();
+    saveCartToLocalStorage();
   }
 }
 
@@ -262,8 +264,22 @@ function createSubTotal() {
 // ...
 
 // Cart item count function
-function updateCartQuantity(){
+function updateCartQuantity() {
   cartQuantity.innerText = cartArray.length;
+}
+
+// Save cart data to local storage
+function saveCartToLocalStorage() {
+  localStorage.setItem("cart", JSON.stringify(cartArray));
+}
+
+// Load cart data from local storage
+function loadCartFromLocalStorage() {
+  const cartData = localStorage.getItem("cart");
+  if (cartData) {
+    cartArray = JSON.parse(cartData);
+    updateCart();
+  }
 }
 
 // Show cart modal function
@@ -303,6 +319,9 @@ window.onscroll = function () {
 /* ---/ FUNCTIONS /--- */
 
 /* --- EVENT LISTENERS --- */
+window.addEventListener("load", function () {
+  loadCartFromLocalStorage();
+});
 
 // Cart button event
 cartBtn.addEventListener("click", function () {

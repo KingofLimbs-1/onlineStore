@@ -100,6 +100,7 @@ a {
 }
 
 .cart span {
+  font-family: "Barlow", sans-serif;
   font-size: 10px;
   color: #fff;
   background-color: black;
@@ -295,21 +296,24 @@ a {
 
 /* Cart header */
 .cartModalHeader{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
+/* Cart heading */
 .head{
-  display: flex;
-  justify-content: center;
-}
-
-.modalClose{
-  display: flex;
-  float: right;
+  font-family: "Spectral", serif;
+  text-align: center;
+  flex: 1;
+  margin-left: 20px;
 }
 
 /* Cart modal close button */
 .cartModalClose {
+  margin-left: auto;
   cursor: pointer;
   background: none;
   border: none;

@@ -26,8 +26,9 @@ a {
   padding-top: 60px;
 }
 /* || GENERAL STYLING END */
-
-/* || NAVBAR */
+/* DESKTOPS */
+@media (min-width: 1020px) {
+  /* || NAVBAR */
 .rowContainer {
   display: flex;
   flex-direction: row;
@@ -77,11 +78,35 @@ a {
 .navItem a {
   font-weight: 400;
 }
+
+/* Cart */
+.cart {
+  position: relative;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.cart span {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
 /* ... */
 /* || NAVBAR END */
 
 /* || LOOKBOOK */
-.lookBookContainer{
+.lookBookContainer {
   margin-top: 100px;
 }
 
@@ -116,3 +141,249 @@ a {
   transform: scale(1.1);
 }
 /* || LOOKBOOK END */
+}
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* || NAVBAR */
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+/* Logo */
+.logoContainer {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logoContainer h1 {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+.logoItems {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+/* ... */
+
+/* Navbar */
+.navItemContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-right: 130px;
+}
+
+.navBarItems {
+  list-style-type: none;
+  display: flex;
+  font-family: "Barlow", sans-serif;
+}
+
+.navItem {
+  padding: 15px;
+}
+
+.navItem a {
+  font-weight: 400;
+}
+
+/* Cart */
+.cart {
+  position: relative;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.cart span {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
+/* ... */
+/* ... */
+/* || NAVBAR END */
+
+/* || LOOKBOOK */
+.lookBookContainer {
+  margin-top: 100px;
+}
+
+.sectionHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sectionContainer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.sectionImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sectionImages img {
+  cursor: pointer;
+  width: 90%;
+  height: auto;
+  border: 2px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.sectionImages img:hover {
+  transform: scale(1.1);
+}
+/* || LOOKBOOK END */
+}
+/* CELLPHONES */
+@media (max-width:767px){
+   /* || NAVBAR */
+   .rowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+
+  .navBarItems {
+    list-style-type: none;
+    display: none;
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cart {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .mobileMenu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+  }
+  .navBarItems.active {
+    display: block;
+  }
+  .navBarItems.active li {
+    display: block;
+    text-align: center;
+  }
+
+
+/* Cart */
+.cart {
+  position: relative;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.cart span {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
+/* ... */
+/* || NAVBAR END */
+
+/* || LOOKBOOK */
+.lookBookContainer {
+  margin-top: 100px;
+}
+
+.sectionHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sectionContainer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.sectionImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sectionImages img {
+  cursor: pointer;
+  width: 90%;
+  height: auto;
+  border: 2px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.sectionImages img:hover {
+  transform: scale(1.1);
+}
+/* || LOOKBOOK END */
+}

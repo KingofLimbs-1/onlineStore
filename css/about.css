@@ -5,20 +5,104 @@
   box-sizing: border-box;
 }
 
-body {
-  background: rgb(121, 221, 147);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 221, 147, 1) 0%,
-    rgba(213, 255, 194, 1) 23%,
-    rgba(213, 255, 194, 1) 70%,
-    rgba(121, 221, 147, 1) 100%
-  );
+a {
+  text-decoration: none;
+  color: #000;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* ... */
 /* || GENERAL STYLING END */
 
 /* DESKTOPS: 1025px - 1290px */
 @media (min-width: 1020px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+  .navItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 130px;
+  }
+
+  .navBarItems {
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .navItem {
+    padding: 15px;
+  }
+
+  .navItem a {
+    font-weight: 400;
+  }
+  /* ... */
+  /* Cart */
+  .cart {
+    position: relative;
+    text-align: right;
+    margin-right: 25px;
+  }
+
+  .cart span {
+    font-family: "Barlow", sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+  }
+  /* ... */
+  /* || NAVBAR END */
+
   /* || HEADING SECTION */
   .headingContainer {
     display: flex;
@@ -26,6 +110,7 @@ body {
   }
 
   .bigText {
+    margin-top: 30px;
     margin-left: 40px;
     font-family: "Spectral", serif;
     font-size: 3.5em;
@@ -74,6 +159,7 @@ body {
   }
 
   .employeeCards {
+    margin: 50px;
     margin-top: 10px;
     display: grid;
     justify-content: center;
@@ -132,6 +218,81 @@ body {
 
 /* TABLETS: 768px - 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+  .navItemContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 130px;
+  }
+
+  .navBarItems {
+    list-style-type: none;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+  }
+
+  .navItem {
+    padding: 15px;
+  }
+
+  .navItem a {
+    font-weight: 400;
+  }
+  /* ... */
+  /* Cart */
+  .cart {
+    position: relative;
+    text-align: right;
+    margin-right: 25px;
+  }
+
+  .cart span {
+    font-family: "Barlow", sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+  }
+  /* ... */
   /* || HEADING SECTION */
   .headingContainer {
     display: flex;
@@ -139,6 +300,7 @@ body {
   }
 
   .bigText {
+    margin-top: 30px;
     margin-left: 40px;
     font-family: "Spectral", serif;
     font-size: 3.5em;
@@ -188,6 +350,7 @@ body {
 
   .employeeCards {
     margin-top: 10px;
+    margin: 50px;
     display: grid;
     justify-content: center;
     gap: 50px;
@@ -244,6 +407,68 @@ body {
 
 /* CELLPHONES: 767px */
 @media screen and (max-width: 767px) {
+  /* || NAVBAR */
+  .rowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  /* Logo */
+  .logoContainer {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .logoContainer h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: black;
+  }
+
+  .logoItems {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  /* ... */
+
+  /* Navbar */
+
+  .navBarItems {
+    list-style-type: none;
+    display: none;
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cart {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .mobileMenu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+  }
+  .navBarItems.active {
+    display: block;
+  }
+  .navBarItems.active li {
+    display: block;
+    text-align: center;
+  }
+
   /* || HEADING SECTION */
   .headingContainer {
     display: flex;
@@ -251,6 +476,7 @@ body {
   }
 
   .bigText {
+    margin-top: 50px;
     margin-left: 40px;
     font-family: "Spectral", serif;
     font-size: 3.5em;

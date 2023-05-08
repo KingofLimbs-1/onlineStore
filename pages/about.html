@@ -10,7 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Fonts -->
     <link
-      href="https://fonts.cdnfonts.com/css/bookman-old-style"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
     <link
@@ -27,8 +31,46 @@
     />
     <!-- CSS Link -->
     <link rel="stylesheet" href="/css/about.css" />
+    <!-- JS Link -->
+    <script src="/js/about.js" defer></script>
   </head>
   <body>
+    <header>
+      <nav class="rowContainer">
+        <div class="logoContainer">
+          <a href="/index.html" class="logoItems">
+            <h1>Simply Home</h1>
+          </a>
+        </div>
+
+        <div class="navItemContainer">
+          <ul class="navBarItems">
+            <li class="navItem">
+              <a href="/pages/lookBook.html">Lookbook</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/shop.html">Shop</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/about.html">About</a>
+            </li>
+            <li class="navItem">
+              <a href="/pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cart">
+          <img src="/images/homePage/shoppingCart1.png" alt="" />
+          <span class="quantity">0</span>
+          <div class="cartItemContainer"></div>
+        </div>
+        <div class="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
     <section class="headingContainer">
       <div class="bigText">
         <h1>Get to know our business.</h1>
@@ -114,7 +156,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeOne.jpg"
+            src="/images/aboutPage/employeeOne.jpg"
             alt="Avatar"
           />
           <div class="container">
@@ -133,7 +175,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeTwo.jpg"
+            src="/images/aboutPage/employeeTwo.jpg"
             alt="Avatar"
           />
           <div class="container">
@@ -151,7 +193,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeThree.jpg"
+            src="/images/aboutPage/employeeThree.jpg"
             alt="Avatar"
           />
           <div class="container">
@@ -169,7 +211,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeFour.jpg"
+            src="/images/aboutPage/employeeFour.jpg"
             alt="Avatar"
           />
           <div class="container">
@@ -188,7 +230,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeFive.jpg"
+            src="/images/aboutPage/employeeFive.jpg"
             alt="Avatar"
           />
           <div class="container">
@@ -207,7 +249,7 @@
         <div class="card">
           <img
             id="employeeImg"
-            src="/images/employees/employeeSix.jpg"
+            src="/images/aboutPage/employeeSix.jpg"
             alt="Avatar"
           />
           <div class="container">

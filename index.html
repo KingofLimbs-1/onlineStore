@@ -35,7 +35,7 @@
     <header>
       <nav class="rowContainer">
         <div class="logoContainer">
-          <a href="index.html" class="logoItems">
+          <a href="/index.html" class="logoItems">
             <h1>Simply Home</h1>
           </a>
         </div>
@@ -56,6 +56,15 @@
             </li>
           </ul>
         </div>
+        <div class="cart">
+          <img src="/images/homePage/shoppingCart1.png" alt="" />
+          <span class="quantity">0</span>
+        </div>
+        <div class="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </header>
     <!-- Navbar End -->
@@ -63,14 +72,16 @@
     <!-- Hero Section -->
     <section class="heroBanner">
       <div class="innerContainer">
-        <p class="callToAction">
-          Create a cozy and welcoming space with our comfortable furniture
-          pieces.
-        </p>
+        <div class="callToAction">
+          <p>
+            Create a cozy and welcoming space with our comfortable furniture
+            pieces.
+          </p>
+        </div>
         <hr />
         <div class="buttonContainer">
-          <a class="exploreBtn" href="#">
-            <p>Shop Now</p>
+          <a class="exploreBtn" href="#contentSection">
+            <p>Explore</p>
           </a>
         </div>
       </div>
@@ -78,11 +89,18 @@
     <!-- Hero Section End -->
 
     <!-- Content Section -->
-    <section>
-      <div class="loungeHeading">
-        <h2 id="sectionHeading">Living Room</h2>
+    <section id="contentSection">
+      <div class="featuredHeading">
+        <h2 id="sectionHeading">Featured</h2>
       </div>
-      <div class="loungeProducts"></div>
+      <div class="featuredProducts"></div>
+    </section>
+
+    <section>
+      <div class="newProductsHeading">
+        <h2 id="sectionHeading">New Products</h2>
+      </div>
+      <div class="newProducts"></div>
     </section>
     <!-- Content Section End -->
   </body>

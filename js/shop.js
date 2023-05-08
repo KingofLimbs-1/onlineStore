@@ -36,6 +36,9 @@ const cartSubTotal = document.querySelector(".subTotal span");
 // Cart modal close button
 const cartModalClose = document.querySelector(".cartModalClose");
 
+// Mobile navbar
+const mobileMenu = document.querySelector(".mobileMenu");
+const navBarItems = document.querySelector(".navBarItems");
 /* ---/ REFERENCES /--- */
 
 /* --- FUNCTIONS --- */
@@ -322,15 +325,23 @@ window.onscroll = function () {
 window.addEventListener("load", function () {
   loadCartFromLocalStorage();
 });
+// ...
 
 // Cart button event
 cartBtn.addEventListener("click", function () {
   showCart();
 });
+// ...
 
 // Modal close button event
 cartModalClose.addEventListener("click", function () {
   closeCart();
+});
+// ...
+
+// Mobile responsive navbar event
+mobileMenu.addEventListener('click', () => {
+  navBarItems.classList.toggle('active');
 });
 // ...
 /* ---/ EVENT LISTENERS /--- */

@@ -252,6 +252,7 @@ function removeFromCart(productId) {
     saveCartToLocalStorage();
   }
 }
+// ...
 
 // Create cart sub total function
 function createSubTotal() {
@@ -270,11 +271,13 @@ function createSubTotal() {
 function updateCartQuantity() {
   cartQuantity.innerText = cartArray.length;
 }
+// ...
 
 // Save cart data to local storage
 function saveCartToLocalStorage() {
   localStorage.setItem("cart", JSON.stringify(cartArray));
 }
+// ...
 
 // Load cart data from local storage
 function loadCartFromLocalStorage() {
@@ -284,6 +287,7 @@ function loadCartFromLocalStorage() {
     updateCart();
   }
 }
+// ...
 
 // Show cart modal function
 function showCart() {
@@ -293,6 +297,7 @@ function showCart() {
     cartModalContainer.style.display = "none";
   }
 }
+// ...
 
 // Close cart modal function
 function closeCart() {

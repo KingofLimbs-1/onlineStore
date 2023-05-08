@@ -107,13 +107,16 @@ function populateNewProductCards() {
 populateNewProductCards();
 // ...
 
+// Get cart from local storage function
 function getCartFromLocalStorage() {
   const cartData = localStorage.getItem("cart");
   if (cartData) {
     return JSON.parse(cartData);
   }
 }
+// ...
 
+// Get cart quantity from local storage
 function getCartItemCount() {
   const cartData = localStorage.getItem("cart");
   if (cartData) {
@@ -121,9 +124,11 @@ function getCartItemCount() {
     return cartArray.length;
   }
 }
+// ...
 
 const itemCount = getCartItemCount();
 cartQuantity.innerText = itemCount.toString();
+// ...
 /* ---/ Functionality /--- */
 
 /* --- Events --- */

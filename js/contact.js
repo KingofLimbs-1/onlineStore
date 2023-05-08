@@ -31,6 +31,7 @@ function getCartFromLocalStorage() {
     return JSON.parse(cartData);
   }
 }
+// ...
 
 // Get cart quantity from local storage
 function getCartItemCount() {
@@ -40,6 +41,7 @@ function getCartItemCount() {
     return cartArray.length;
   }
 }
+// ...
 
 const itemCount = getCartItemCount();
 cartQuantity.innerText = itemCount.toString();

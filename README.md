@@ -1,4 +1,4 @@
-# ** Online Furniture Store **
+<h1 align="center">Online Furniture Store</h1>
 
 ## Overview ##
 Simply Home is a furniture retailer that offers a wide range of high-quality and stylish furniture pieces for every room in your home. 
